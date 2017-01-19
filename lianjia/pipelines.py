@@ -31,11 +31,11 @@ class LianjiaPipeline(object):
 
 def dbHandle():
 	conn=MySQLdb.connect(
-		host="106.14.72.212",
-		user="root",
-		passwd="niki1573",
+		host="",
+		user="",
+		passwd="",
 		charset="utf8",
-		db="houseInfo",
+		db="",
 		use_unicode=False
 		)
 	return conn
